@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/TimeUtil.mc" lineNum="5" pc="268435456" symbol="currentTime"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/TimeUtil.mc" lineNum="8" pc="268435468" symbol="currentTime"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/TimeUtil.mc" lineNum="9" pc="268435485" symbol="currentTime"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/TimeUtil.mc" lineNum="10" pc="268435517" symbol="currentTime"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/TimeUtil.mc" lineNum="11" pc="268435561" symbol="currentTime"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/TimeUtil.mc" lineNum="14" pc="268435603" symbol="elapsedTime"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/TimeUtil.mc" lineNum="15" pc="268435615" symbol="elapsedTime"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/TimeUtil.mc" lineNum="16" pc="268435631" symbol="elapsedTime"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/TimeUtil.mc" lineNum="17" pc="268435647" symbol="elapsedTime"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/TimeUtil.mc" lineNum="18" pc="268435663" symbol="elapsedTime"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/TimeUtil.mc" lineNum="19" pc="268435692" symbol="elapsedTime"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="5" pc="268435722" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="7" pc="268435726" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="8" pc="268435752" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="9" pc="268435762" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="10" pc="268435792" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="14" pc="268435822" symbol="addReading"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="15" pc="268435826" symbol="addReading"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="16" pc="268435862" symbol="addReading"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="18" pc="268435903" symbol="addReading"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="21" pc="268435935" symbol="power3s"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="22" pc="268435939" symbol="power3s"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="23" pc="268435946" symbol="power3s"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="24" pc="268435976" symbol="power3s"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="26" pc="268436005" symbol="power3s"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="29" pc="268436015" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="31" pc="268436019" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="33" pc="268436038" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="34" pc="268436076" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="36" pc="268436094" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="37" pc="268436116" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="39" pc="268436134" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="40" pc="268436156" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="42" pc="268436174" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="43" pc="268436196" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="45" pc="268436214" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="46" pc="268436236" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="48" pc="268436254" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="49" pc="268436276" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="51" pc="268436294" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="54" pc="268436310" symbol="zone1"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="55" pc="268436314" symbol="zone1"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="57" pc="268436343" symbol="zone2"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="58" pc="268436347" symbol="zone2"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="60" pc="268436399" symbol="zone3"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="61" pc="268436403" symbol="zone3"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="63" pc="268436455" symbol="zone4"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="64" pc="268436459" symbol="zone4"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="66" pc="268436511" symbol="zone5"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="67" pc="268436515" symbol="zone5"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="69" pc="268436544" symbol="zone6"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Power.mc" lineNum="70" pc="268436548" symbol="zone6"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="5" pc="268436577" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="6" pc="268436581" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="7" pc="268436607" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="10" pc="268436618" symbol="updateHeartRate"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="11" pc="268436622" symbol="updateHeartRate"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="14" pc="268436633" symbol="getHeartRate"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="15" pc="268436637" symbol="getHeartRate"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="18" pc="268436668" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="22" pc="268436672" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="23" pc="268436702" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="25" pc="268436720" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="26" pc="268436734" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="28" pc="268436752" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="29" pc="268436766" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="31" pc="268436784" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="32" pc="268436798" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="34" pc="268436816" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="35" pc="268436830" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="37" pc="268436848" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="40" pc="268436864" symbol="zone1"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="41" pc="268436868" symbol="zone1"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="43" pc="268436909" symbol="zone2"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="44" pc="268436913" symbol="zone2"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="46" pc="268436983" symbol="zone3"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="47" pc="268436987" symbol="zone3"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="49" pc="268437057" symbol="zone4"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="50" pc="268437061" symbol="zone4"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="52" pc="268437131" symbol="zone5"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/HeartRate.mc" lineNum="53" pc="268437135" symbol="zone5"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/DistanceUtil.mc" lineNum="3" pc="268437176" symbol="toMiles"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/DistanceUtil.mc" lineNum="4" pc="268437188" symbol="toMiles"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/DistanceUtil.mc" lineNum="7" pc="268437212" symbol="toMPH"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/DistanceUtil.mc" lineNum="8" pc="268437224" symbol="toMPH"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="4" pc="268437248" symbol="updateCadence"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="5" pc="268437252" symbol="updateCadence"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="8" pc="268437263" symbol="getCadence"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="9" pc="268437267" symbol="getCadence"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="12" pc="268437304" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="13" pc="268437308" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="14" pc="268437321" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="16" pc="268437339" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="17" pc="268437356" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="19" pc="268437374" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="20" pc="268437391" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="22" pc="268437409" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="23" pc="268437426" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/Cadence.mc" lineNum="25" pc="268437444" symbol="getColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="17" pc="268437461" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="18" pc="268437465" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="19" pc="268437483" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="20" pc="268437513" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="21" pc="268437543" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="22" pc="268437556" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="23" pc="268437569" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="25" pc="268437582" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="26" pc="268437610" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="29" pc="268437640" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="34" pc="268437679" symbol="onLayout"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="35" pc="268437683" symbol="onLayout"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="38" pc="268437687" symbol="drawValues"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="39" pc="268437691" symbol="drawValues"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="41" pc="268437731" symbol="drawValues"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="44" pc="268437813" symbol="drawValues"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="47" pc="268437895" symbol="drawValues"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="50" pc="268437977" symbol="drawValues"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="53" pc="268438067" symbol="drawValues"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="56" pc="268438149" symbol="drawValues"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="59" pc="268438239" symbol="drawValues"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="62" pc="268438330" symbol="drawLabels"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="63" pc="268438334" symbol="drawLabels"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="65" pc="268438374" symbol="drawLabels"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="68" pc="268438444" symbol="drawLabels"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="71" pc="268438514" symbol="drawLabels"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="74" pc="268438584" symbol="drawLabels"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="77" pc="268438654" symbol="drawLabels"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="80" pc="268438725" symbol="drawIndicators"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="81" pc="268438729" symbol="drawIndicators"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="84" pc="268438746" symbol="drawIndicators"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="85" pc="268438789" symbol="drawIndicators"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="86" pc="268438821" symbol="drawIndicators"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="89" pc="268438853" symbol="drawIndicators"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="90" pc="268438893" symbol="drawIndicators"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="91" pc="268438925" symbol="drawIndicators"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="94" pc="268438957" symbol="drawIndicators"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="95" pc="268439000" symbol="drawIndicators"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="96" pc="268439032" symbol="drawIndicators"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="99" pc="268439065" symbol="drawGrid"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="100" pc="268439069" symbol="drawGrid"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="101" pc="268439109" symbol="drawGrid"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="103" pc="268439121" symbol="drawGrid"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="104" pc="268439161" symbol="drawGrid"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="105" pc="268439178" symbol="drawGrid"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="106" pc="268439197" symbol="drawGrid"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="107" pc="268439216" symbol="drawGrid"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="108" pc="268439248" symbol="drawGrid"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="109" pc="268439292" symbol="drawGrid"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="112" pc="268439336" symbol="drawGrid"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="113" pc="268439368" symbol="drawGrid"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="116" pc="268439400" symbol="drawGrid"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="123" pc="268439427" symbol="compute"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="124" pc="268439431" symbol="compute"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="125" pc="268439457" symbol="compute"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="126" pc="268439483" symbol="compute"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="127" pc="268439509" symbol="compute"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="128" pc="268439546" symbol="compute"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="129" pc="268439583" symbol="compute"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="142" pc="268439621" symbol="onUpdate"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="143" pc="268439625" symbol="onUpdate"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="144" pc="268439639" symbol="onUpdate"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="145" pc="268439653" symbol="onUpdate"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="146" pc="268439667" symbol="onUpdate"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsView.mc" lineNum="147" pc="268439681" symbol="onUpdate"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsBackground.mc" lineNum="9" pc="268439685" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsBackground.mc" lineNum="10" pc="268439689" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsBackground.mc" lineNum="14" pc="268439710" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsBackground.mc" lineNum="17" pc="268439731" symbol="setColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsBackground.mc" lineNum="18" pc="268439735" symbol="setColor"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsBackground.mc" lineNum="21" pc="268439746" symbol="draw"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsBackground.mc" lineNum="22" pc="268439750" symbol="draw"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsBackground.mc" lineNum="23" pc="268439782" symbol="draw"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsApp.mc" lineNum="5" pc="268439795" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsApp.mc" lineNum="6" pc="268439799" symbol="initialize"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsApp.mc" lineNum="10" pc="268439818" symbol="onStart"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsApp.mc" lineNum="14" pc="268439823" symbol="onStop"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsApp.mc" lineNum="18" pc="268439828" symbol="getInitialView"/>
+<entry filename="/Users/Steven/eclipse-workspace/BikeFields/source/BikeFieldsApp.mc" lineNum="19" pc="268439832" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="19" pc="268439870" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="21" pc="268439882" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="22" pc="268439906" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="23" pc="268440069" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="24" pc="268440094" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="25" pc="268440146" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="26" pc="268440192" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="27" pc="268440355" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="28" pc="268440380" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="29" pc="268440432" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="32" pc="268440478" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="41" pc="268440516" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="43" pc="268440528" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="44" pc="268440552" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="45" pc="268440685" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="48" pc="268440818" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="57" pc="268440856" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="59" pc="268440868" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="60" pc="268440892" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="61" pc="268441025" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="64" pc="268441158" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="73" pc="268441196" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="75" pc="268441208" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="76" pc="268441232" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="77" pc="268441365" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="80" pc="268441498" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="89" pc="268441536" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="91" pc="268441548" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="92" pc="268441572" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="93" pc="268441705" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="96" pc="268441838" symbol="BottomRightLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388644" module="true" symbol="System"/>
+<entry field="true" id="8388959" symbol="cadence"/>
+<entry id="47" method="true" symbol="drawLabels"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="12" object="true" symbol="Power"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="20" method="true" symbol="getColor"/>
+<entry id="25" method="true" symbol="TopLeftLayout"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="8389138" symbol="label"/>
+<entry id="27" method="true" symbol="BottomLeftLayout"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="14" module="true" symbol="DistanceUtil"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="24" method="true" symbol="MainLayout"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="52" method="true" symbol="addReading"/>
+<entry field="true" id="50" symbol="powerReadings"/>
+<entry id="32" method="true" symbol="updateHeartRate"/>
+<entry field="true" id="8389130" symbol="mColor"/>
+<entry id="8389131" method="true" symbol="setColor"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="18" method="true" symbol="updateCadence"/>
+<entry field="true" id="29" symbol="AppName"/>
+<entry id="40" method="true" symbol="toMPH"/>
+<entry field="true" id="51" symbol="thresholdPower"/>
+<entry id="39" method="true" symbol="toMiles"/>
+<entry id="13" object="true" symbol="HeartRate"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry id="19" method="true" symbol="getCadence"/>
+<entry id="33" method="true" symbol="getHeartRate"/>
+<entry field="true" id="23" symbol="LauncherIcon"/>
+<entry id="16" object="true" symbol="BikeFieldsView"/>
+<entry id="54" method="true" symbol="zone6"/>
+<entry id="38" method="true" symbol="zone5"/>
+<entry id="37" method="true" symbol="zone4"/>
+<entry id="36" method="true" symbol="zone3"/>
+<entry id="35" method="true" symbol="zone2"/>
+<entry id="34" method="true" symbol="zone1"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="44" symbol="distanceMeters"/>
+<entry id="15" object="true" symbol="Cadence"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8388732" method="true" symbol="elapsedTime"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="30" method="true" symbol="currentTime"/>
+<entry id="26" method="true" symbol="TopRightLayout"/>
+<entry id="48" method="true" symbol="drawIndicators"/>
+<entry id="8389348" symbol="font"/>
+<entry field="true" id="31" symbol="thresholdHeartRate"/>
+<entry id="11" module="true" symbol="TimeUtil"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="41" symbol="time"/>
+<entry id="17" object="true" symbol="BikeFieldsApp"/>
+<entry id="22" module="true" symbol="Layouts"/>
+<entry field="true" id="43" symbol="speedMetersPerSecond"/>
+<entry id="28" method="true" symbol="BottomRightLayout"/>
+<entry id="49" method="true" symbol="drawGrid"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="45" symbol="elapsedTimeMs"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="46" method="true" symbol="drawValues"/>
+<entry id="21" module="true" symbol="Menus"/>
+<entry field="true" id="8388960" symbol="heartRate"/>
+<entry field="true" id="42" symbol="hr"/>
+<entry field="true" id="8388961" symbol="power"/>
+<entry id="53" method="true" symbol="power3s"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435602" name="hours" stackId="3" startPc="268435468"/>
+<entry endPc="268435602" name="clockTime" stackId="1" startPc="268435468"/>
+<entry endPc="268435602" name="period" stackId="2" startPc="268435468"/>
+<entry endPc="268435721" name="hoursParsed" stackId="5" startPc="268435615"/>
+<entry endPc="268435721" name="hours" stackId="4" startPc="268435615"/>
+<entry endPc="268435721" name="minutes" stackId="3" startPc="268435615"/>
+<entry endPc="268435721" name="seconds" stackId="2" startPc="268435615"/>
+<entry endPc="268435722" name="ms" stackId="1" startPc="268435603"/>
+<entry endPc="268435821" name="i" stackId="2" startPc="268435792"/>
+<entry endPc="268435822" name="thresholdPower" stackId="1" startPc="268435722"/>
+<entry endPc="268435903" name="i" stackId="2" startPc="268435862"/>
+<entry endPc="268435935" name="power" stackId="1" startPc="268435822"/>
+<entry endPc="268436005" name="i" stackId="2" startPc="268435976"/>
+<entry endPc="268436014" name="power3s" stackId="1" startPc="268435939"/>
+<entry endPc="268436343" name="power3s" stackId="1" startPc="268436310"/>
+<entry endPc="268436399" name="power3s" stackId="1" startPc="268436343"/>
+<entry endPc="268436455" name="power3s" stackId="1" startPc="268436399"/>
+<entry endPc="268436511" name="power3s" stackId="1" startPc="268436455"/>
+<entry endPc="268436544" name="power3s" stackId="1" startPc="268436511"/>
+<entry endPc="268436577" name="power3s" stackId="1" startPc="268436544"/>
+<entry endPc="268436618" name="thresholdHr" stackId="1" startPc="268436577"/>
+<entry endPc="268436633" name="hr" stackId="1" startPc="268436618"/>
+<entry endPc="268437212" name="meters" stackId="1" startPc="268437176"/>
+<entry endPc="268437248" name="metersPerSecond" stackId="1" startPc="268437212"/>
+<entry endPc="268437263" name="newCadence" stackId="1" startPc="268437248"/>
+<entry endPc="268437678" name="hrZones" stackId="2" startPc="268437465"/>
+<entry endPc="268437678" name="currentSport" stackId="1" startPc="268437465"/>
+<entry endPc="268437687" name="dc" stackId="1" startPc="268437679"/>
+<entry endPc="268438330" name="dc" stackId="1" startPc="268437687"/>
+<entry endPc="268438725" name="dc" stackId="1" startPc="268438330"/>
+<entry endPc="268439065" name="dc" stackId="1" startPc="268438725"/>
+<entry endPc="268439426" name="middleY" stackId="2" startPc="268439069"/>
+<entry endPc="268439426" name="middleX" stackId="3" startPc="268439069"/>
+<entry endPc="268439427" name="dc" stackId="1" startPc="268439065"/>
+<entry endPc="268439621" name="info" stackId="1" startPc="268439427"/>
+<entry endPc="268439685" name="dc" stackId="1" startPc="268439621"/>
+<entry endPc="268439730" name="dictionary" stackId="1" startPc="268439689"/>
+<entry endPc="268439746" name="color" stackId="1" startPc="268439731"/>
+<entry endPc="268439795" name="dc" stackId="1" startPc="268439746"/>
+<entry endPc="268439823" name="state" stackId="1" startPc="268439818"/>
+<entry endPc="268439828" name="state" stackId="1" startPc="268439823"/>
+<entry endPc="268440515" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268439882"/>
+<entry endPc="268440515" name="rez_cmp_local_custom_drawable_XVLPNOAV8UXOGKV1PN24" stackId="2" startPc="268439882"/>
+<entry endPc="268440515" name="rez_cmp_local_bitmap_value_fontHeight" stackId="6" startPc="268439882"/>
+<entry endPc="268440515" name="rez_cmp_local_bitmap_value" stackId="5" startPc="268439882"/>
+<entry endPc="268440515" name="rez_cmp_local_bitmap_label_fontHeight" stackId="4" startPc="268439882"/>
+<entry endPc="268440516" name="dc" stackId="1" startPc="268439870"/>
+<entry endPc="268440855" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268440528"/>
+<entry endPc="268440855" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268440528"/>
+<entry endPc="268440855" name="rez_cmp_local_custom_drawable_HXNP0X7U9VNQMFKNQDAY" stackId="2" startPc="268440528"/>
+<entry endPc="268440856" name="dc" stackId="1" startPc="268440516"/>
+<entry endPc="268441195" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268440868"/>
+<entry endPc="268441195" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268440868"/>
+<entry endPc="268441195" name="rez_cmp_local_custom_drawable_T37WC14DI1JW3SUEBIY7" stackId="2" startPc="268440868"/>
+<entry endPc="268441196" name="dc" stackId="1" startPc="268440856"/>
+<entry endPc="268441535" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268441208"/>
+<entry endPc="268441535" name="rez_cmp_local_custom_drawable_DVSCV6TCWDFG8J4A48G7" stackId="2" startPc="268441208"/>
+<entry endPc="268441535" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268441208"/>
+<entry endPc="268441536" name="dc" stackId="1" startPc="268441196"/>
+<entry endPc="268441875" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268441548"/>
+<entry endPc="268441875" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268441548"/>
+<entry endPc="268441875" name="rez_cmp_local_custom_drawable_RJPLVSD9CKY5SN4FMG2D" stackId="2" startPc="268441548"/>
+<entry endPc="268441876" name="dc" stackId="1" startPc="268441536"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="currentTime" parent="TimeUtil">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="elapsedTime" parent="TimeUtil">
+<param id="ms"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="Power">
+<param id="thresholdPower"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="addReading" parent="Power">
+<param id="power"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="power3s" parent="Power">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getColor" parent="Power">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="zone1" parent="Power">
+<param id="power3s"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="zone2" parent="Power">
+<param id="power3s"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="zone3" parent="Power">
+<param id="power3s"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="zone4" parent="Power">
+<param id="power3s"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="zone5" parent="Power">
+<param id="power3s"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="zone6" parent="Power">
+<param id="power3s"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="HeartRate">
+<param id="thresholdHr"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="updateHeartRate" parent="HeartRate">
+<param id="hr"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getHeartRate" parent="HeartRate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getColor" parent="HeartRate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="zone1" parent="HeartRate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="zone2" parent="HeartRate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="zone3" parent="HeartRate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="zone4" parent="HeartRate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="zone5" parent="HeartRate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="toMiles" parent="DistanceUtil">
+<param id="meters"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="toMPH" parent="DistanceUtil">
+<param id="metersPerSecond"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="updateCadence" parent="Cadence">
+<param id="newCadence"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getCadence" parent="Cadence">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getColor" parent="Cadence">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="BikeFieldsView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="BikeFieldsView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawValues" parent="BikeFieldsView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawLabels" parent="BikeFieldsView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawIndicators" parent="BikeFieldsView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawGrid" parent="BikeFieldsView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="compute" parent="BikeFieldsView">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="BikeFieldsView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="Background">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setColor" parent="Background">
+<param id="color"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="Background">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="BikeFieldsApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="BikeFieldsApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="BikeFieldsApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="BikeFieldsApp">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="TopLeftLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="TopRightLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="BottomLeftLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="BottomRightLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="103" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="278" parentId="globals" symbolId="Cadence" type="class"/>
+<dataEntry offset="357" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="436" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="475" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="506" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="537" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="568" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="639" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="686" parentId="globals" symbolId="TimeUtil" type="module"/>
+<dataEntry offset="733" parentId="globals" symbolId="HeartRate" type="class"/>
+<dataEntry offset="860" parentId="globals" symbolId="BikeFieldsApp" type="class"/>
+<dataEntry offset="931" parentId="globals" symbolId="DistanceUtil" type="module"/>
+<dataEntry offset="978" parentId="globals" symbolId="BikeFieldsView" type="class"/>
+<dataEntry offset="1137" parentId="globals" symbolId="Power" type="class"/>
+<dataEntry offset="1272" parentId="globals" symbolId="Background" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>
