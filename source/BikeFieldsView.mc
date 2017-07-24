@@ -41,10 +41,10 @@ class BikeFieldsView extends Ui.DataField {
     		dc.drawText(40, 90, Graphics.FONT_NUMBER_MEDIUM, hr.getHeartRate(), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     		
     		// 2nd row middle
-    		dc.drawText(120, 90, Graphics.FONT_NUMBER_MEDIUM, power.power3s(), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
+    		dc.drawText(120, 90, Graphics.FONT_NUMBER_MEDIUM, cadence.getCadence(), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     		
     		// 2nd row right
-    		dc.drawText(200, 90, Graphics.FONT_NUMBER_MEDIUM, cadence.getCadence(), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
+    		dc.drawText(200, 90, Graphics.FONT_NUMBER_MEDIUM, power.power3s(), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     		
     		// Bottom
     		dc.drawText(120, 210, Graphics.FONT_NUMBER_MILD, TimeUtil.elapsedTime(elapsedTimeMs), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
@@ -65,10 +65,10 @@ class BikeFieldsView extends Ui.DataField {
     		dc.drawText(50, 50, Graphics.FONT_XTINY, "HR", (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     		
     		// 2nd row middle
-    		dc.drawText(120, 50, Graphics.FONT_XTINY, "PWR 3s", (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
+    		dc.drawText(120, 50, Graphics.FONT_XTINY, "CAD", (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     		
     		// 2nd row right
-    		dc.drawText(190, 50, Graphics.FONT_XTINY, "CAD", (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
+    		dc.drawText(190, 50, Graphics.FONT_XTINY, "PWR 3s", (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     
     		// 3rd row left
     		dc.drawText(60, 177, Graphics.FONT_XTINY, "SPEED", (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
@@ -86,12 +86,12 @@ class BikeFieldsView extends Ui.DataField {
     		dc.fillRectangle(0, 42, 79, 20);
     		
     		// Middle
-    		dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_WHITE);
-    		dc.drawRectangle(82, 42, 77, 20);
-    		dc.fillRectangle(82, 42, 77, 20);
+    		// dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_WHITE);
+    		// dc.drawRectangle(82, 42, 77, 20);
+    		// dc.fillRectangle(82, 42, 77, 20);
     		
     		// Right
-    		dc.setColor(cadence.getColor(), Graphics.COLOR_WHITE);
+    		dc.setColor(power.getColor(), Graphics.COLOR_WHITE);
     		dc.drawRectangle(162, 42, 79, 20);
     		dc.fillRectangle(162, 42, 79, 20);
     }
