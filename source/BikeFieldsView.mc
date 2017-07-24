@@ -16,7 +16,7 @@ class BikeFieldsView extends Ui.DataField {
 
     function initialize() {
         DataField.initialize();
-        power = new Power();
+        power = new Power(225, 3);
         cadence = new Cadence();
         elapsedTimeMs = 0;
         distanceMeters = 0;
@@ -38,25 +38,25 @@ class BikeFieldsView extends Ui.DataField {
     function drawValues(dc) {
     		dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
     		// 2nd row left
-    		dc.drawText(40, 90, Graphics.FONT_NUMBER_MEDIUM, hr.getHeartRate(), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
+    		dc.drawText(40, 90, Graphics.FONT_NUMBER_MEDIUM, displayValue(hr.getHeartRate()), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     		
     		// 2nd row middle
-    		dc.drawText(120, 90, Graphics.FONT_NUMBER_MEDIUM, cadence.getCadence(), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
+    		dc.drawText(120, 90, Graphics.FONT_NUMBER_MEDIUM, displayValue(cadence.getCadence()), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     		
     		// 2nd row right
-    		dc.drawText(200, 90, Graphics.FONT_NUMBER_MEDIUM, power.power3s(), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
+    		dc.drawText(200, 90, Graphics.FONT_NUMBER_MEDIUM, displayValue(power.getPower()), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     		
     		// Bottom
-    		dc.drawText(120, 210, Graphics.FONT_NUMBER_MILD, TimeUtil.elapsedTime(elapsedTimeMs), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
+    		dc.drawText(120, 210, Graphics.FONT_NUMBER_MILD, displayValue(TimeUtil.elapsedTime(elapsedTimeMs)), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     		
     		// Top
-    		dc.drawText(120, 23, Graphics.FONT_TINY, TimeUtil.currentTime(), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
+    		dc.drawText(120, 23, Graphics.FONT_TINY, displayValue(TimeUtil.currentTime()), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     		
     		// 3rd row left
-    		dc.drawText(60, 145, Graphics.FONT_NUMBER_MEDIUM, DistanceUtil.toMPH(speedMetersPerSecond), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
+    		dc.drawText(60, 145, Graphics.FONT_NUMBER_MEDIUM, displayValue(DistanceUtil.toMPH(speedMetersPerSecond)), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     		
     		// 3rd row right
-    		dc.drawText(180, 145, Graphics.FONT_NUMBER_MEDIUM, DistanceUtil.toMiles(distanceMeters), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
+    		dc.drawText(180, 145, Graphics.FONT_NUMBER_MEDIUM, displayValue(DistanceUtil.toMiles(distanceMeters)), (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     }
     
     function drawLabels(dc) {
@@ -124,9 +124,9 @@ class BikeFieldsView extends Ui.DataField {
         hr.updateHeartRate(info.currentHeartRate);
         power.addReading(info.currentPower);
         cadence.updateCadence(info.currentCadence);
-        speedMetersPerSecond = info.currentSpeed == null ? 0 : info.currentSpeed;
-        distanceMeters = info.elapsedDistance == null ? 0 : info.elapsedDistance;
-        elapsedTimeMs = info.elapsedTime == null ? 0 : info.elapsedTime;
+        speedMetersPerSecond = info.currentSpeed;
+        distanceMeters = info.elapsedDistance;
+        elapsedTimeMs = info.elapsedTime;
         
         /*
         hr = Math.rand() % 100;
@@ -145,6 +145,10 @@ class BikeFieldsView extends Ui.DataField {
        drawIndicators(dc);
        drawLabels(dc);
        return true;
+    }
+    
+    function displayValue(value) {
+    		return value == null ? "-" : value;
     }
 
 }

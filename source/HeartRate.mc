@@ -12,7 +12,7 @@ class HeartRate {
 	}
 	
 	function getHeartRate() {
-		return heartRate == null ? "-" : heartRate;
+		return heartRate;
 	}
 	
 	function getColor() {

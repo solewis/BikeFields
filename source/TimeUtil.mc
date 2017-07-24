@@ -12,6 +12,9 @@ module TimeUtil {
 	}
 	
 	function elapsedTime(ms) {
+		if (ms == null) {
+			return null;
+		}
 		var seconds = (ms / 1000) % 60;
 		var minutes = ((ms / (1000*60)) % 60);
 		var hours = (ms / (1000*60*60)) % 24;

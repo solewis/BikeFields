@@ -6,7 +6,7 @@ class Cadence {
 	}
 	
 	function getCadence() {
-		return cadence == null ? "-" : cadence / 2;
+		return cadence;
 	}
 	
 	function getColor() {
