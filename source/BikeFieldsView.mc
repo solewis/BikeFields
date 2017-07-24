@@ -68,7 +68,7 @@ class BikeFieldsView extends Ui.DataField {
     		dc.drawText(120, 50, Graphics.FONT_XTINY, "CAD", (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     		
     		// 2nd row right
-    		dc.drawText(190, 50, Graphics.FONT_XTINY, "PWR 3s", (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
+    		dc.drawText(190, 50, Graphics.FONT_XTINY, "PWR", (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
     
     		// 3rd row left
     		dc.drawText(60, 177, Graphics.FONT_XTINY, "SPEED", (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER));
