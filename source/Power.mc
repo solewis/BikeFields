@@ -10,6 +10,7 @@ class Power {
 		self.thresholdPower = thresholdPower;
 		self.connectivity = true;
 		zeroOutReadings();
+		
 	}
 	
 	function addReading(power) {
@@ -67,19 +68,19 @@ class Power {
 	}
 	
 	function zone2(power) {
-		return power != null && power >= (.55 * thresholdPower) && power <= (.74 * thresholdPower);
+		return power != null && power >= (.55 * thresholdPower) && power < (.75 * thresholdPower);
 	}
 	
 	function zone3(power) {
-		return power != null && power >= (.75 * thresholdPower) && power <= (.89 * thresholdPower);
+		return power != null && power >= (.75 * thresholdPower) && power < (.9 * thresholdPower);
 	}
 	
 	function zone4(power) {
-		return power != null && power >= (.90 * thresholdPower) && power <= (1.04 * thresholdPower);
+		return power != null && power >= (.9 * thresholdPower) && power < (1.05 * thresholdPower);
 	}
 	
 	function zone5(power) {
-		return power != null && power >= (1.05 * thresholdPower) && power <= (1.2 * thresholdPower);
+		return power != null && power > (1.05 * thresholdPower) && power <= (1.2 * thresholdPower);
 	}
 	
 	function zone6(power) {

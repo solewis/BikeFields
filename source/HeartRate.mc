@@ -41,13 +41,13 @@ class HeartRate {
 		return heartRate != null && heartRate < (.81 * thresholdHeartRate);
 	}
 	function zone2() {
-		return heartRate != null && heartRate >= (.81 * thresholdHeartRate) && heartRate <= (.89 * thresholdHeartRate);
+		return heartRate != null && heartRate >= (.81 * thresholdHeartRate) && heartRate < (.9 * thresholdHeartRate);
 	}
 	function zone3() {
-		return heartRate != null && heartRate >= (.9 * thresholdHeartRate) && heartRate <= (.93 * thresholdHeartRate);
+		return heartRate != null && heartRate >= (.9 * thresholdHeartRate) && heartRate < (.94 * thresholdHeartRate);
 	}
 	function zone4() {
-		return heartRate != null && heartRate >= (.94 * thresholdHeartRate) && heartRate <= (.99 * thresholdHeartRate);
+		return heartRate != null && heartRate >= (.94 * thresholdHeartRate) && heartRate < (1 * thresholdHeartRate);
 	}
 	function zone5() {
 		return heartRate != null && heartRate >= (1 * thresholdHeartRate);
