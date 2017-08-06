@@ -19,6 +19,7 @@ module TimeUtil {
 		var minutes = ((ms / (1000*60)) % 60);
 		var hours = (ms / (1000*60*60)) % 24;
 		var hoursParsed = hours > 0 ? hours + ":" : "";
+		var minutesFormatted = hours > 0 ? minutes.format("%02d") : minutes;
 		return hoursParsed + minutes + ":" + seconds.format("%02d");
 	}
 }
