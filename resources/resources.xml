@@ -1,0 +1,14 @@
+<resources>
+	<properties>
+		<property id="functionalThresholdPower" type="number">225</property>
+	</properties>
+	
+	<strings>
+		<string id="ftpTitle">Functional Threshold Power (FTP)</string>
+		<string id="ftpError">FTP must be a numeric value</string>
+	</strings>
+	
+	<setting propertyKey="@Properties.functionalThresholdPower" title="@Strings.ftpTitle">
+			<settingConfig type="numeric" errorMessage="@Strings.ftpError"/>
+	</setting>
+</resources>
