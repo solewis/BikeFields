@@ -1,0 +1,8 @@
+<strings>
+	<!-- GENERAL -->
+    <string id="AppName">BikeFields</string>
+    
+    <!-- SETTINGS -->
+    <string id="ftpTitle">Functional Threshold Power (FTP)</string>
+	<string id="ftpError">FTP must be a numeric value</string>
+</strings>

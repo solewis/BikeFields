@@ -1,0 +1,3 @@
+<properties>
+	<property id="functionalThresholdPower" type="number">225</property>
+</properties>

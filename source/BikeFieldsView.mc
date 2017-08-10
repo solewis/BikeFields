@@ -1,5 +1,6 @@
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
+using Toybox.Application as App;
 
 class BikeFieldsView extends Ui.DataField {
 
@@ -16,7 +17,7 @@ class BikeFieldsView extends Ui.DataField {
 
     function initialize() {
         DataField.initialize();
-        power = new Power(225, 3);
+        power = new Power(App.getApp().getProperty("functionalThresholdPower"), 3);
         cadence = new Cadence();
         elapsedTimeMs = 0;
         distanceMeters = 0;
