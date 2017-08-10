@@ -18,16 +18,12 @@ class BikeFieldsView extends Ui.DataField {
     function initialize() {
         DataField.initialize();
         power = new Power(App.getApp().getProperty("functionalThresholdPower"), 3);
+        var currentSport = UserProfile.getProfile().getCurrentSport();
+        hr = new HeartRate(UserProfile.getProfile().getHeartRateZones(currentSport)); 
         cadence = new Cadence();
         elapsedTimeMs = 0;
         distanceMeters = 0;
         speedMetersPerSecond = 0;
-        
-        var currentSport = UserProfile.getProfile().getCurrentSport();
-        var hrZones = UserProfile.getProfile().getHeartRateZones(currentSport);
-        // Initialize hr with threshold taken from Max zone 4
-        // May not actually be threshold depending on how zones are configured on device
-        hr = new HeartRate(hrZones[4]); 
     }
 
     // Set your layout here. Anytime the size of obscurity of

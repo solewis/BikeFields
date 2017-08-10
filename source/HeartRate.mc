@@ -1,10 +1,10 @@
 class HeartRate {
 	var heartRate;
-	var thresholdHeartRate;
+	var hrZones;
 	
-	function initialize(thresholdHr) {
-		System.println("Initializing HR with threshold HR: " + thresholdHr);
-		thresholdHeartRate = thresholdHr;
+	function initialize(hrZones) {
+		System.println("Initializing HR with HR Zones: " + hrZones);
+		self.hrZones = hrZones;
 	}
 	
 	function updateHeartRate(hr) {
@@ -16,9 +16,6 @@ class HeartRate {
 	}
 	
 	function getColor() {
-		// TODO change to use garmin zones
-		
-		// Using friel HR zones for cycling
 		if (heartRate == null or zone1()) {
 			return Graphics.COLOR_LT_GRAY;
 		}
@@ -38,18 +35,18 @@ class HeartRate {
 	}
 	
 	function zone1() {
-		return heartRate != null && heartRate < (.81 * thresholdHeartRate);
+		return heartRate != null && heartRate < hrZones[1];
 	}
 	function zone2() {
-		return heartRate != null && heartRate >= (.81 * thresholdHeartRate) && heartRate < (.9 * thresholdHeartRate);
+		return heartRate != null && heartRate >= hrZones[1] && heartRate < hrZones[2];
 	}
 	function zone3() {
-		return heartRate != null && heartRate >= (.9 * thresholdHeartRate) && heartRate < (.94 * thresholdHeartRate);
+		return heartRate != null && heartRate >= hrZones[2] && heartRate < hrZones[3];
 	}
 	function zone4() {
-		return heartRate != null && heartRate >= (.94 * thresholdHeartRate) && heartRate < (1 * thresholdHeartRate);
+		return heartRate != null && heartRate >= hrZones[3] && heartRate < hrZones[4];
 	}
 	function zone5() {
-		return heartRate != null && heartRate >= (1 * thresholdHeartRate);
+		return heartRate != null && heartRate >= hrZones[4];
 	}
 }
