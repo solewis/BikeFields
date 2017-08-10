@@ -94,10 +94,10 @@ class BikeFieldsView extends Ui.DataField {
     }
     
     function drawGrid(dc) {
-    		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
-    		dc.clear();
-    		
-    		dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_WHITE);
+		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
+		dc.clear();
+		
+		dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_WHITE);
         dc.setPenWidth(2);
         var middleY = dc.getHeight() / 2;
         var middleX = dc.getWidth() / 2;
