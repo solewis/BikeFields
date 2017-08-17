@@ -1,0 +1,67 @@
+<resources>
+	<!-- Background drawable because background= on layout does not work -->
+	<drawable-list id="Background" x="0" y="0" foreground="Gfx.COLOR_WHITE">
+	   	<shape type="rectangle" width="fill" height="fill" />
+	</drawable-list>
+	
+	<drawable-list id="Grid" foreground="Gfx.COLOR_LT_GRAY">
+		<!-- Center horizontal line -->
+		<shape type="rectangle" x="0" y="109" width="fill" height="2" />
+		<!-- Top horizontal line -->
+		<shape type="rectangle" x="0" y="38" width="fill" height="2" />
+		<!-- Bottom horizontal line -->
+		<shape type="rectangle" x="0" y="180" width="fill" height="2" />
+		<!-- Left top row split line -->
+		<shape type="rectangle" x="73" y="38" width="2" height="71" />
+		<!-- Right top row split line -->
+		<shape type="rectangle" x="145" y="38" width="2" height="71" />
+		<!-- Bottom row split line -->
+		<shape type="rectangle" x="109" y="109" width="2" height="71" />
+	</drawable-list>
+		
+	<layout id="MainLayout">
+		<drawable id="Background" />
+		<drawable id="Grid" />
+		<drawable id="LeftIndicator" class="Indicator">
+			<param name="position">"left"</param>
+			<param name="x">0</param>
+			<param name="y">41</param>
+			<param name="width">73</param>
+			<param name="height">20</param>
+		</drawable>
+		<drawable id="RightIndicator" class="Indicator">
+			<param name="position">"right"</param>
+			<param name="x">147</param>
+			<param name="y">41</param>
+			<param name="width">73</param>
+			<param name="height">20</param>
+		</drawable>
+		
+		<label id="HeaderValue" x="109" y="25" font="Gfx.FONT_TINY" 
+			   justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_BLACK" />
+		<label id="FooterValue" x="109" y="193" font="Gfx.FONT_TINY" 
+			   justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_BLACK" />
+			   
+		<label id="TopLeftValue" x="36" y="82" font="Gfx.FONT_NUMBER_MEDIUM" 
+			   justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_BLACK" />
+		<label id="TopMidValue" x="109" y="82" font="Gfx.FONT_NUMBER_MEDIUM" 
+			   justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_BLACK" />
+		<label id="TopRightValue" x="182" y="82" font="Gfx.FONT_NUMBER_MEDIUM" 
+			   justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_BLACK" />
+		<label id="BottomLeftValue" x="60" y="152" font="Gfx.FONT_NUMBER_MEDIUM" 
+			   justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_BLACK" />
+		<label id="BottomRightValue" x="158" y="152" font="Gfx.FONT_NUMBER_MEDIUM" 
+			   justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_BLACK" />
+			   
+		<label id="TopLeftLabel" x="44" y="48" text="@Strings.HrLabel" font="Gfx.FONT_XTINY" 
+			   justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_BLACK" />
+		<label id="TopMidLabel" x="109" y="48" text="@Strings.CadenceLabel" font="Gfx.FONT_XTINY" 
+			   justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_BLACK" />
+		<label id="TopRightLabel" x="174" y="48" text="@Strings.PowerLabel" font="Gfx.FONT_XTINY" 
+			   justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_BLACK" />
+		<label id="BottomLeftLabel" x="60" y="120" text="@Strings.SpeedLabel" font="Gfx.FONT_XTINY" 
+			   justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_BLACK" />
+		<label id="BottomRightLabel" x="158" y="120" text="@Strings.DistanceLabel" font="Gfx.FONT_XTINY" 
+			   justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_BLACK" />
+	</layout>
+</resources>

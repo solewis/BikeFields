@@ -3,12 +3,16 @@ using Toybox.System;
 module TimeUtil {
 
 	function currentTime() {
-		// TODO: Make 24/12 adjustable based on system setting
+		var isMilitaryTime = System.getDeviceSettings().is24Hour;
 		
 		var clockTime = System.getClockTime();
-		var period = clockTime.hour > 12 ? "PM" : "AM";
-		var hours = clockTime.hour > 12 ? clockTime.hour - 12 : clockTime.hour;
-		return hours + ":" + clockTime.min.format("%02d") + " " + period;
+		if (isMilitaryTime) {
+			return clockTime.hour + ":" + clockTime.min.format("%02d");
+		} else {
+			var period = clockTime.hour > 12 ? "PM" : "AM";
+			var hours = clockTime.hour > 12 ? clockTime.hour - 12 : clockTime.hour;
+			return hours + ":" + clockTime.min.format("%02d") + " " + period;
+		}
 	}
 	
 	function elapsedTime(ms) {

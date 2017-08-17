@@ -1,5 +1,24 @@
 <resources>
-	<setting propertyKey="@Properties.functionalThresholdPower" title="@Strings.ftpTitle">
-		<settingConfig type="numeric" errorMessage="@Strings.ftpError"/>
+
+	<properties>
+		<property id="FunctionalThresholdPower" type="number">235</property>
+	</properties>
+
+	<strings>
+		<!-- GENERAL -->
+	    <string id="AppName">BikeFields</string>
+	    
+	    <!-- SETTINGS -->
+	    <string id="FtpTitle">Functional Threshold Power (FTP)</string>
+		<string id="FtpError">FTP must be a numeric value</string>
+		<string id="HrLabel">HR</string>
+		<string id="CadenceLabel">CAD</string>
+		<string id="PowerLabel">PWR</string>
+		<string id="SpeedLabel">SPEED</string>
+		<string id="DistanceLabel">DIST</string>
+	</strings>
+	
+	<setting propertyKey="@Properties.functionalThresholdPower" title="@Strings.FtpTitle">
+		<settingConfig type="numeric" errorMessage="@Strings.FtpError"/>
 	</setting>
 </resources>
