@@ -21,7 +21,7 @@ class Indicator extends Ui.Drawable {
     function draw(dc) {
         dc.setPenWidth(2);
 		
-		var color = position == "left" ? leftColor : rightColor;
+		var color = "left".equals(position) ? leftColor : rightColor;
 		dc.setColor(color, Gfx.COLOR_WHITE);
 		dc.drawRectangle(x, y, width, height);
 		dc.fillRectangle(x, y, width, height);
