@@ -15,7 +15,7 @@ class BikeFieldsView extends Ui.DataField {
 
     function initialize() {
         DataField.initialize();
-        power = new Power(App.getApp().getProperty("FunctionalThresholdPower"), 3);
+        power = new Power(App.getApp().getProperty("FunctionalThresholdPower"), 1);
         var currentSport = UserProfile.getProfile().getCurrentSport();
         hr = new HeartRate(UserProfile.getProfile().getHeartRateZones(currentSport)); 
         cadence = 0;
@@ -49,7 +49,7 @@ class BikeFieldsView extends Ui.DataField {
     function onUpdate(dc) {
     	Indicator.leftColor = hr.getColor();
     	Indicator.rightColor = power.getColor();
-    	View.onUpdate(dc);
+    	
     	View.findDrawableById("HeaderValue").setText(displayValue(TimeUtil.currentTime()));
     	View.findDrawableById("FooterValue").setText(displayValue(TimeUtil.elapsedTime(elapsedTimeMs)));
     	View.findDrawableById("TopLeftValue").setText(displayValue(hr.getHeartRate()));
@@ -57,6 +57,7 @@ class BikeFieldsView extends Ui.DataField {
     	View.findDrawableById("TopRightValue").setText(displayValue(power.getPower()));
     	View.findDrawableById("BottomLeftValue").setText(displayValue(DistanceUtil.toMPH(speedMetersPerSecond)));
     	View.findDrawableById("BottomRightValue").setText(displayValue(DistanceUtil.toMiles(distanceMeters)));
+    	View.onUpdate(dc);
 	    return true;
     }
     
