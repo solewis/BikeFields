@@ -21,4 +21,8 @@
 	<setting propertyKey="@Properties.functionalThresholdPower" title="@Strings.FtpTitle">
 		<settingConfig type="numeric" errorMessage="@Strings.FtpError"/>
 	</setting>
+	
+	<build>
+		<exclude dir="../test" />
+	</build>
 </resources>
