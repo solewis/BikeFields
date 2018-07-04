@@ -15,7 +15,7 @@ class BikeFieldsView extends Ui.DataField {
 
     function initialize() {
         DataField.initialize();
-        power = new Power(App.getApp().getProperty("FunctionalThresholdPower"), 1);
+        power = new Power(App.getApp().getProperty("FunctionalThresholdPower"), 3);
         var currentSport = UserProfile.getProfile().getCurrentSport();
         hr = new HeartRate(UserProfile.getProfile().getHeartRateZones(currentSport)); 
         cadence = 0;
